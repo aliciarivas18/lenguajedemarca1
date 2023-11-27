@@ -1,0 +1,245 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+  
+}
+
+.main-header {
+    top: 100px;
+    background-color: #EC8F5E;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion-texto {
+    font-size: 25px;
+    font-family: italic;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 1.5;
+}
+
+.image-galeria {
+   display: flex;
+   justify-content: space-between;
+}
+.image-galeria img {
+    width: 33%;
+    margin-top: 5%;
+}
+
+.parrafo-footer {
+    background-color: #EC8F5E;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    top: 90px;
+}
+
+/*css contacto.html*/
+.body-contacto{
+    background-color: #F1EB90;
+}
+.titulo-contacto h1{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.contacto_content{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #EC8F5E;
+    padding: 20px;
+    border-radius: 8px;
+}
+ .form {
+    display: grid;
+    gap: 15px;
+ }
+
+ label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+ }
+
+ .input, textarea, select {
+    width: 100%;
+    padding: 8px;
+ }
+
+ .otros-contactos {
+    background-color: #EC8F5E;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    padding-top: 0%;
+   align-items: center;
+ }
+
+ .otros-contactos a {
+    text-align: center;
+    margin: 0 6%; 
+}
+
+ .otros-contactos img{
+    margin-top: 5%;
+    width: 20px;
+    height: 20px;
+ }
+ .otros-contactos h3 {
+    size: 5%;
+    margin-top: 5%;
+    text-align: center;
+ }
+
+
+/*css informacion.html*/
+
+
+.informacion-header p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    background-color: #F1EB90;
+}
+.titulo-informacion{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo-informacion h1 {
+    font-size: 50px ;
+    color: #EC8F5E;
+}
+.titulo-informacion h2 {
+    font-size: 20px ;
+    color: #EC8F5E;
+    padding: 5%;
+}
+.descripcion-info h3 {
+    font-size: 24px;
+    color: #EC8F5E;
+    text-align: center;
+}
+.descripcion-info p {
+    font-size: 24px;
+    color: #EC8F5E;
+    text-align: center;
+    padding: 10px;
+}
+
+.mas-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-con-titulo {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.image-con-titulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-con-titulo h4 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #EC8F5E;
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.info-ubicacion {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-ubicacion h3{
+    text-align: center;
+}
+
+.info-ubicacion img {
+    width: 60%;
+    max-width: 120px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.iconos-info {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.iconos-info h2 {
+    font-size: 120%;
+    color: white;
+    margin-bottom: 200px;
+    text-align: center;
+    
+
+}
+.iconos-info img {
+    width: 20%;
+    height: 20%;
+}
+.iconos-info h3 {
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+}
